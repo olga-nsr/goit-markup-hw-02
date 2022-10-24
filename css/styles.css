@@ -1,7 +1,7 @@
 body {
    font-family: "Roboto", sans-serif;
+   font-family: 'Raleway', sans-serif;
 
-}
 
 /*  heder*/
 .logo {
@@ -11,20 +11,30 @@ font-family: 'Raleway';
    font-size: 26px;
    line-height: 31px;
    letter-spacing: 0.03em;
-   color: #000000
+   color: #2196F3;
 }
 
-.logo-accent {
-color:#2196F3;
+.logo-header {
+color: #000000
 }
 .link {
    text-decoration: none;
 
 }
-.nav-list {
+.nav-list {}
 
+.nav-item {}
+
+.nav-link {
+   font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 16px;
+      letter-spacing: 0.02em;
+
+      color: #212121;z
 }
-.header {
 
 }
 /*  hero*/
