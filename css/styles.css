@@ -4,7 +4,7 @@ body {
 
 
 /*  heder*/
-.logo {
+ .logo {
 font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
@@ -21,32 +21,17 @@ color: #000000
    text-decoration: none;
 
 }
-.nav-list {}
 
-.nav-item {}
-
-.nav-link {
-   font-family: 'Roboto';
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-
-      color: #212121;z
-}
-
-}
 /*  hero*/
-.hero {
 
-}
+
+
 /*  hero*/
 ul {
    list-style: none;
 }
 
-< !--Фільтри-->
+<!--Фільтри-->
 .button:hover,
 .button:focus {
 color: 2196F3;
