@@ -1,5 +1,5 @@
 body {
-   font-family: "Roboto", "Raleway", sans-serif;
+   font-family: "Roboto", sans-serif;
 }
 .list {
    list-style: none;
@@ -134,4 +134,35 @@ body {
    text-align: center;
    letter-spacing: 0.03em;
    color: #757575;
+}
+/*-------Підвал--*/
+.footer {
+   background: #2F303A;
+}
+.logo-footer {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: calc(31/26);
+   letter-spacing: 0.03em;
+   color: #2196F3;
+
+}
+.logo-footer-span {
+color: #FFFFFF;
+}
+.footer-link {
+   font-weight: 400;
+      font-size: 14px;
+      line-height: calc(24/14);
+      letter-spacing: 0.03em;
+      color: #FFFFFF;
+}
+.footer-address {
+   font-weight: 400;
+      font-size: 14px;
+      line-height: calc(24/14);
+      letter-spacing: 0.03em;
+      color: rgba(255, 255, 255, 0.6);
 }
