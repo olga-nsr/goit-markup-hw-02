@@ -1,0 +1,43 @@
+body {
+   font-family: "Roboto", sans-serif;
+
+}
+
+/*  heder*/
+.logo {
+font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 31px;
+   letter-spacing: 0.03em;
+   color: #000000
+}
+
+.logo-accent {
+color:#2196F3;
+}
+.link {
+   text-decoration: none;
+
+}
+.nav-list {
+
+}
+.header {
+
+}
+/*  hero*/
+.hero {
+
+}
+/*  hero*/
+ul {
+   list-style: none;
+}
+
+< !--Фільтри-->
+.button:hover,
+.button:focus {
+color: 2196F3;
+}
