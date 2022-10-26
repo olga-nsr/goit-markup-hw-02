@@ -1,9 +1,18 @@
+:root {
+  --main-title-color:  #ffffff;
+  --sacondary-title-color:#212121;
+  --text-title-color:#757575;
+  --accent-color: #2196f3;
+}
+
+
+
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--main-title-color);
+  color:var(--sacondary-title-color);
 }
 .list {
   list-style: none;
@@ -13,7 +22,7 @@ body {
 }
 /*-------Шапка сайту--*/
 .header {
-  background-color: #ffffff;
+  background-color:var(--main-title-color);
 }
 
 .logo {
@@ -23,23 +32,23 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-header {
-  color: #000000;
+  color: var(--sacondary-title-color);
 }
 
 .nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.33;
+  line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--sacondary-title-color);
 }
 
 .nav-link:hover,
 .nav-link:focus {
-  color: #2196f3;
+  color:   var(--accent-color);
 }
 .header-mail,
 .header-tel {
@@ -47,7 +56,7 @@ body {
   font-size: 14px;
   line-height: calc(16 / 12);
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-title-color);
 }
 .header-mail:hover,
 .header-mail:focus {
@@ -55,7 +64,7 @@ body {
 }
 .header-tel:hover,
 .header-tel:focus {
-  color: #2196f3;
+  color:  var(--accent-color);
 }
 
 /*-------Герой--*/
@@ -69,7 +78,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--main-title-color);
 }
 .hero-button {
   font-weight: 700;
@@ -79,9 +88,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-title-color);
   cursor: pointer;
-  background: #2196f3;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 216px;
@@ -100,7 +109,7 @@ body {
   font-size: 14px;
   line-height: 24px;
 
-  color: #757575;
+  color: var(--text-title-color);
 }
 /*-------Чим ми займаємося--*/
 .section-title {
@@ -129,7 +138,7 @@ body {
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-title-color);
 }
 /*-------Підвал--*/
 .footer {
@@ -142,15 +151,15 @@ body {
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .logo-footer-span {
-  color: #ffffff;
+  color: var(--main-title-color)
 }
 .footer-link {
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--main-title-color);
   font-style: normal;
 }
 .footer-address {
@@ -172,8 +181,8 @@ body {
 }
 .button:hover,
 .button:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--accent-color);
+  color: var(--main-title-color);
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .title-portfolio {
@@ -188,6 +197,6 @@ letter-spacing: 0.06em;
 font-size: 16px;
 line-height: 30px;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--text-title-color);
 
 }
